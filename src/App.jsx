@@ -12,10 +12,10 @@ function App() {
   const pClass = color + " mx-auto mt-2 text-center";
 
   return (
-    <div className="mx-auto mt-2 w-5/6 border text-center">
+    <div className="mx-auto mt-2 w-1/3 border text-center">
       <p>Button pressed {pressedTimes} times</p>
 
-      <div className="mx-auto w-1/3">
+      <div className="mx-auto">
         <button
           className="bg-slate-400 rounded-sm text-white mx-1 px-1"
           onClick={click}
