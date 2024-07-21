@@ -17,7 +17,7 @@ function App() {
   const color = blackColor ? "bg-gray-500" : "bg-gray-300";
 
   return (
-    <div className="mx-auto mt-2 w-threeFourths border border-blue-500 text-center bg-slate-50">
+    <div className="mx-auto mt-2 w-threeFourths border text-center bg-slate-50">
       <p>Button pressed {pressedTimes} times</p>
 
       <div className="mx-auto mb-2">
