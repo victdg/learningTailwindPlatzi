@@ -23,7 +23,7 @@ function App() {
       <div className="mx-auto mb-2">
         <button
           className={
-            buttonDisabled ? "button-crease-disabled" : "button-crease-enabled"
+            buttonDisabled ? "btn-crease-disabled" : "btn-crease-enabled"
           }
           disabled={buttonDisabled}
           onClick={decreases}
@@ -40,7 +40,7 @@ function App() {
 
         <button
           className={
-            buttonDisabled ? "button-crease-disabled" : "button-crease-enabled"
+            buttonDisabled ? "btn-crease-disabled" : "btn-crease-enabled"
           }
           disabled={buttonDisabled}
           onClick={increases}
