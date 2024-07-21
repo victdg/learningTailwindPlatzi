@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  @apply font-bold text-yellow-700;
+}
+
+@layer components {
+  .btn-crease-enabled {
+    @apply bg-gray-600 rounded text-white mx-1 px-1;
+  }
+  .btn-crease-disabled {
+    @apply bg-gray-200 rounded text-white mx-1 px-1;
+  }
+}
