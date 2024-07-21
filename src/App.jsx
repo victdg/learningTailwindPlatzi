@@ -17,13 +17,13 @@ function App() {
   const color = blackColor ? "bg-gray-500" : "bg-gray-300";
 
   return (
-    <div className="mx-auto mt-2 w-threeFourths border text-center">
+    <div className="mx-auto mt-2 w-threeFourths border border-blue-500 text-center bg-slate-50">
       <p>Button pressed {pressedTimes} times</p>
 
       <div className="mx-auto mb-2">
         <button
           className={
-            buttonDisabled ? "btn-crease-disabled" : "btn-crease-enabled"
+            buttonDisabled ? "button-crease-disabled" : "button-crease-enabled"
           }
           disabled={buttonDisabled}
           onClick={decreases}
@@ -40,7 +40,7 @@ function App() {
 
         <button
           className={
-            buttonDisabled ? "btn-crease-disabled" : "btn-crease-enabled"
+            buttonDisabled ? "button-crease-disabled" : "button-crease-enabled"
           }
           disabled={buttonDisabled}
           onClick={increases}

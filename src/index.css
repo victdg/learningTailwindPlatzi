@@ -7,10 +7,11 @@
 }
 
 @layer components {
-  .btn-crease-enabled {
+  .button-crease-enabled {
     @apply bg-gray-600 rounded text-white mx-1 px-1;
   }
-  .btn-crease-disabled {
+
+  .button-crease-disabled {
     @apply bg-gray-200 rounded text-white mx-1 px-1;
   }
 }
