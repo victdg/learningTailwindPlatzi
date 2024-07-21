@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 function App() {
+  console.log("version 1");
   const [pressedTimes, setPressedTimes] = useState(0);
   const [blackColor, setBlackColor] = useState(false);
   const [buttonDisabled, setButtonDisabled] = useState(false);
